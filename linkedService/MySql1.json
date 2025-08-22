@@ -1,0 +1,22 @@
+{
+	"name": "MySql1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "MySql",
+		"typeProperties": {
+			"server": "localhost",
+			"port": 3306,
+			"database": "ADF",
+			"username": "adf_user",
+			"sslMode": 1,
+			"useSystemTrustStore": 0,
+			"driverVersion": "v2",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyNTUxYzZiYi1mMmNkLTQ5MWEtYTkyMS1mOTM5N2U5N2EyMTYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1mysql",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
